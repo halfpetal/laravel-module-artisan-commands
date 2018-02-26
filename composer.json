@@ -1,0 +1,37 @@
+
+{
+    "name": "halfpetal/laravel-artisan-commands",
+    "description": "Artisan commands that should exist, but don't...until now.",
+    "keywords": ["laravel", "artisan", "commands", "make", "illuminate"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "5.*",
+        "fzaninotto/faker": "~1.4",
+        "laravel/laravel": "5.*",
+        "codeclimate/php-test-reporter": "^0.3.2",
+        "mockery/mockery": "^0.9.5",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Halfpetal\\Laravel\\ArtisanCommands\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Halfpetal\\Laravel\\ArtisanCommands\\ArtisanCommandServiceProdiver"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "stable"
+}

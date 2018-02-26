@@ -1,0 +1,109 @@
+<?php
+ 
+namespace DummyNamespace;
+ 
+use App\DummyModel;
+ 
+class DummyClass
+{
+    /**
+     * Observe when the model has started the creating process.
+     *
+     * @param DummyModel $model
+     */
+    public function creating(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has been created.
+     *
+     * @param DummyModel $model
+     */
+    public function created(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has started the updating process.
+     *
+     * @param DummyModel $model
+     */
+    public function updating(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has been updated.
+     *
+     * @param DummyModel $model
+     */
+    public function updated(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has started the saving process.
+     *
+     * @param DummyModel $model
+     */
+    public function saving(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has been saved.
+     *
+     * @param DummyModel $model
+     */
+    public function saved(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has started the deleting process.
+     *
+     * @param DummyModel $model
+     */
+    public function deleting(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has been deleted.
+     *
+     * @param DummyModel $model
+     */
+    public function deleted(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has started the restoring process.
+     *
+     * @param DummyModel $model
+     */
+    public function restoring(DummyModel $model )
+    {
+        //
+    }
+ 
+    /**
+     * Observe when the model has been restored.
+     *
+     * @param DummyModel $model
+     */
+    public function restored(DummyModel $model )
+    {
+        //
+    }
+}
+        
