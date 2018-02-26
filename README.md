@@ -33,7 +33,9 @@ We aren't sure why this one is not in Laravel by default. It's very useful and w
 
 #### Arguments
 `name` - The class name
+
 `model` - The model for the observer to use.
+
 `namespace` (_optional_) - The application namespace. The default will be used.
 
 ### `route:simplelist`
