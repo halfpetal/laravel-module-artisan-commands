@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Halfpetal\\Laravel\\ArtisanCommands\\ArtisanCommandServiceProdiver"
+                "Halfpetal\\Laravel\\ArtisanCommands\\ArtisanCommandServiceProvider"
             ],
             "aliases": {}
         }

@@ -4,7 +4,7 @@ namespace Halfpetal\Laravel\ArtisanCommands;
 
 use Illuminate\Support\ServiceProvider;
 
-class ArtisanCommandServiceProdiver extends ServiceProvider
+class ArtisanCommandServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

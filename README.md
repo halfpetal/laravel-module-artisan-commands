@@ -21,7 +21,7 @@ If you use Laravel 5.5+, you have nothing else to do. If not, add our service pr
 ```php
 'providers' => [
     ...
-    Halfpetal\Laravel\ArtisanCommands\ArtisanCommandServiceProdiver,
+    Halfpetal\Laravel\ArtisanCommands\ArtisanCommandServiceProvider,
     ...
 ];
 ```
@@ -39,7 +39,7 @@ We aren't sure why this one is not in Laravel by default. It's very useful and w
 `namespace` (_optional_) - The application namespace. The default will be used.
 
 ### `route:simplelist`
-The default `route:list` can be so cluttered. This on is a simplified version of that.
+The default `route:list` can be so cluttered. This one is a simplified version of that.
 
 
 ## Thanks
